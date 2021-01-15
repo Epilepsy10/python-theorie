@@ -41,7 +41,7 @@ if a+b == c:
     print ("a+b=c")
 ```
 
-__Else__ beendet den Loup der Anforderungen. Else wird gebraucht, wenn keine Bedingungen erfüllt sind.
+__Else__ beendet den Loop der Anforderungen. Else wird gebraucht, wenn keine Bedingungen erfüllt sind.
 
 Beispiel:
 
@@ -74,9 +74,9 @@ Diese "If/Else-Blöcke" werden von Oben nach Unten gelesen und sobald eine Bedin
     a=1
     b=2
     c=3
-    if a+b >= c:        #Diese Statement wurde nicht erfüllt 
+    if a+b > c:        #Diese Statement wurde nicht erfüllt 
         print("a+b>c")  
-    elif a+b <= c:      #Diese Statement wurde nicht erfüllt 
+    elif a+b < c:      #Diese Statement wurde nicht erfüllt 
         print("a+b<c")
     elif a+b == c:      #Diese Statement wurde erfüllt! -->  print("a+b=c") --> Stop 
         print("a+b=c")
